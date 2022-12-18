@@ -6,8 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="./palindrome.js"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
+    <form action="">
+        <label for="string">Enter String:</label><br>
+        <input type="text" id="string" name="string"><br>
+        <input type="button" value="Submit" onclick="isPalindrome(document.getElementById('string').value)">
+      </form> 
+
+
+      <div id="resultDiv">
+            <h2 id="result"></h2>
+      </div>
     
 </body>
 </html>

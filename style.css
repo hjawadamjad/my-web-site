@@ -1,0 +1,15 @@
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+  }
+
+  body{
+    background-color: rgb(223, 191, 151);
+  }
+
+  h2 {
+    text-align: center;
+  }

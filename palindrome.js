@@ -6,13 +6,11 @@ function isPalindrome(string){
     }
     
     if(reverseString === string ) {
-        console.log("String is Palindrome")
+        
+        document.getElementById('result').innerHTML = "String is Palindrome";
     }
     else{
-        console.log("String is not Plaindrome")
+        document.getElementById('result').innerHTML = "String is not Palindrome";
     }
 
 }
-
-
-isPalindrome("ABCDCBA");
